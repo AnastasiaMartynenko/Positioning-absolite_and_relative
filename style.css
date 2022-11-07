@@ -1,0 +1,32 @@
+.content{
+    border: 1px solid #000;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.item{
+    width: 200px;
+    height: 70px;
+}
+.item-1{
+    background-color: rgb(233, 192, 118);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.item-2{
+    background-color: aquamarine;
+    position: absolute;
+    top: 35px;
+    left: 100px;
+    z-index: 1;
+}
+.item-3{
+    background-color: palevioletred;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    z-index: 2;
+}
